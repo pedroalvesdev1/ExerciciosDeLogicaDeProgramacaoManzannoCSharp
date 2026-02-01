@@ -1,0 +1,35 @@
+﻿a) 2No exercício original, você só somava e multiplicava pares separados. Muito fácil! Vamos criar um algoritmo de segurança bancária simples.Elabore um programa que leia quatro números inteiros: A, B, C e D.O objetivo é gerar um "Código de Segurança" único baseado na seguinte lógica cruzada:Calcule o Produto dos Extremos: Multiplique o primeiro (A) pelo último (D).Calcule a Soma dos Meios: Some o segundo (B) com o terceiro (C).O Resultado Final deve ser a diferença entre o Produto dos Extremos e a Soma dos Meios.Fórmula: $Resultado = (A \cdot D) - (B + C)$.Desafio Visual: Mostre na tela assim: "O código de segurança para [A, B, C, D] é: X".
+
+
+b) O Holerite Realista (Salário Líquido) 💼
+
+(Baseado no exercício Extra 1b)  No mundo real, o salário nunca vem limpo, né? O "Leão" (imposto) sempre morde um pedaço. Leia o Salário Atual de um funcionário e o Percentual de Reajuste (aumento) que ele ganhou. O seu algoritmo deve:
+
+    Calcular o Novo Salário Bruto (com o aumento).
+
+    Calcular um desconto de INSS de 11% sobre esse novo salário bruto.
+
+    Calcular um desconto de Imposto de Renda de 5% sobre esse novo salário bruto.
+
+    Mostrar na tela:
+
+    O Novo Salário Bruto.
+
+    O Total de Descontos (soma do INSS + IR).
+
+    O Salário Líquido (o que sobra pro bolso dele).
+
+c) O Analista Político (Votos Válidos vs. Totais) 🗳️
+
+(Baseado no exercício Extra 1c)  Atenção total aqui! O exercício original pede porcentagens sobre o total de eleitores. Mas na política, o que decide eleição são os Votos Válidos (excluindo brancos e nulos). Vamos calcular os dois cenários para não confundir a cabeça do eleitor. Leia a quantidade de votos do Candidato A, Candidato B, Candidato C, Votos Nulos e Votos em Branco. O programa deve calcular e mostrar:
+
+    O Número Total de Eleitores que compareceram (soma de tudo).
+
+    O Total de Votos Válidos (soma de A + B + C, sem nulos/brancos).
+
+    A porcentagem de Nulos e Brancos em relação ao Total de Eleitores.
+
+    A porcentagem de cada candidato (A, B e C) em relação apenas aos Votos Válidos (isso mostra quem ganharia a eleição de verdade).
+
+    Dica do Jaja: Cuidado com o denominador da divisão! Em uma conta você divide pelo "Total Geral", na outra você divide pelo "Total Válido".
+ 

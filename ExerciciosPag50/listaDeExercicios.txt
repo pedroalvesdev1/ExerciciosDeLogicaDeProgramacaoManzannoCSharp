@@ -1,0 +1,42 @@
+a) Simulação de Rendimento Financeiro (Juros Compostos)
+O problema: Um cliente quer saber quanto o dinheiro dele vai render mês a mês se ele deixar parado numa aplicação de alto risco.
+O desafio: Apresentar o saldo acumulado de um investimento mês a mês, do mês 15 até o mês 200. Considere um aporte inicial (pode fixar ou ler) e uma taxa de juros fixa. A cada repetição, o novo valor é: `valor_atual + (valor_atual  taxa)`.
+
+b) Auditoria de Transações Pares
+O problema: Em um sistema legado de banco, as transações com ID par são consideradas "Entradas de Capital" e as ímpares são "Saídas".
+O desafio: Fazer um loop que percorra IDs de transação de 1 até 500. Se o ID for par, some um valor fictício (ex: R$ 100,00) ao montante total. No final, apresente o "Total de Entradas Auditoradas".
+
+c) Amostragem para Controle de Qualidade
+O problema: Uma fábrica produz 200 peças por lote. O controle de qualidade não consegue verificar todas, então eles verificam apenas as peças cujo número de série é divisível por 4.
+O desafio: Criar um loop que vá de 1 a 200 (números de série). Dentro do loop, use uma estrutura `se` para verificar se o número é divisível por 4. Se for, exiba: "Peça [N] selecionada para teste". Se não, apenas incremente e passe para a próxima.
+
+d) O "Bug" do Consumo de Memória (Crescimento Exponencial)
+O problema: Um processo travou no servidor e está duplicando o consumo de RAM a cada segundo. Precisamos simular quando o servidor vai travar.
+O desafio: Comece com 1 MB de consumo no "segundo 1". No "segundo 2", o consumo dobra (2 MB), no "segundo 3", dobra o anterior (4 MB), e assim por diante. Calcule e exiba o consumo acumulado até o "segundo 64" (Cuidado: o número vai ficar gigante, use variáveis que suportem isso, como `double` ou `long`). Isso simula o problema dos grãos de trigo, mas aplicado a vazamento de memória.
+
+e) Roteirização Logística (Fatorial)
+O problema: Uma transportadora tem 15 caminhões saindo hoje. Para cada caminhão, o motorista insere quantos pontos de entrega (N) ele tem. O número de rotas possíveis é o fatorial de N (N!).
+O desafio: Ler um número inteiro (pontos de entrega) para cada um dos 15 caminhões. Para cada entrada, calcule o fatorial desse número (as rotas possíveis). No final, apresente o total de rotas combinadas de toda a frota.
+
+f) Fechamento de Caixa Diário (Média e Totais)  
+O problema: Um caixa de supermercado precisa fechar o dia. Ele vai bipando os valores das compras.
+O desafio: Ler sucessivamente os valores das vendas (em reais). O programa deve continuar lendo enquanto os valores forem positivos. Se o usuário digitar um valor negativo (ex: -1), o caixa encerra.
+Saída: Mostrar o Faturamento Total, a Quantidade de Vendas e o Ticket Médio (Total / Quantidade).
+Dica: Cuidado para não contar o valor negativo de encerramento nos cálculos!
+
+g) Criptografia de Chaves Ímpares
+O problema: Um sistema de segurança gera chaves baseadas em fatoriais, mas apenas para números ímpares entre 1 e 10 para economizar processamento.
+O desafio: Faça um loop de 1 a 10. Se o número for ímpar, calcule o seu fatorial e exiba "Chave gerada para o nível [N]: [Resultado]". Se for par, ignore.
+
+h) Orçamento de Cloud Computing (Serviços em Nuvem)
+O problema: Um arquiteto de soluções está montando um orçamento na AWS/Azure. Ele precisa somar o custo de vários serviços (VMs, Banco de Dados, Storage).
+O desafio: O programa deve pedir: "Nome do Serviço" e "Custo Mensal". Exiba o custo daquele item. Em seguida, pergunte: "Adicionar outro serviço? (SIM/NAO)". O loop continua até ele responder "NAO". No final, apresente o Custo Mensal Total da Infraestrutura.
+
+i) Monitoramento de Temperatura de Servidor (Máximo e Mínimo)
+O problema: Precisamos saber os picos de calor de um processador para ajustar a ventoinha.
+O desafio: O sistema lê a temperatura (valores inteiros positivos) continuamente. O loop para quando uma temperatura negativa (código de erro ou parada) for lida. Ao final, mostre a Maior Temperatura registrada e a Menor Temperatura registrada durante o monitoramento.
+
+j) Sistema de Empacotamento (Divisão sem operador de divisão)
+O problema: Um braço robótico antigo não consegue fazer contas de dividir (DIV), ele só sabe somar e subtrair. Precisamos ensinar ele a empacotar produtos.
+O desafio: Leia dois números: "Total de Produtos" (dividendo) e "Capacidade da Caixa" (divisor). Usando apenas um loop e subtração, descubra quantas caixas cheias teremos (quociente) e quantos produtos sobram (resto).
+Lógica: Enquanto o total de produtos for maior ou igual à capacidade da caixa, subtraia a capacidade do total e conte +1 caixa. O que sobrar no total é o resto.

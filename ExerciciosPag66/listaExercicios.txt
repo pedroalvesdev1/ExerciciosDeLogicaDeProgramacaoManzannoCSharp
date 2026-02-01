@@ -1,0 +1,54 @@
+a) Análise de Escalabilidade de Servidores (Quadrados)
+Uma startup de streaming precisa prever o custo de processamento de dados. Sabe-se que o custo cresce exponencialmente (ao quadrado) conforme o número de usuários ativos em milhares aumenta.
+
+ Tarefa: Gere um relatório que mostre o custo projetado (o quadrado do número) para uma base de usuários que vai de 15 mil a 200 mil, aumentando de 1 em 1.
+
+b) Tabela de Descontos Progressivos (Tabuada)
+Você trabalha em um e-commerce B2B. O gerente de vendas pediu uma tabela dinâmica para mostrar aos clientes o preço final de um produto unitário (valor digitado pelo usuário) quando comprado em lotes de 1 até 10 unidades.
+
+ Tarefa: Leia o valor unitário do produto e apresente a tabela: "Lote de 1: R$ X", "Lote de 2: R$ 2X"... até 10.
+
+c) Custo Acumulado de Projeto (Soma dos 100)
+Em um projeto de construção civil, o gasto diário aumenta incrementalmente (Dia 1 = R2k...). O gestor financeiro quer saber qual será o custo total acumulado ao final de um ciclo de 100 dias.
+
+ Tarefa: Calcule a soma de todos os números inteiros de 1 a 100 e apresente o "Orçamento Total Necessário".
+
+d) Auditoria de Transações Pares (Soma condicional)
+Um sistema bancário legado registra transações com IDs numéricos de 1 a 500. Por uma regra de negócio antiga, IDs pares representam "Créditos" e IDs ímpares representam "Débitos".
+
+ Tarefa: Percorra os IDs de 1 a 500 e calcule o somatório apenas dos valores dos IDs pares (simulando a soma dos identificadores de crédito para auditoria).
+
+e) Filtragem de Logs de Erro (Ímpares com SE)
+Você está analisando um arquivo de log onde códigos de erro são sempre números ímpares. O sistema gerou códigos de 0 a 20 para um teste de carga.
+
+ Tarefa: Percorra o intervalo de 0 a 20. Para cada número, verifique com uma condicional (`se`) se ele é um código de erro (ímpar). Se for, exiba: "Alerta: Código de Erro [X] detectado".
+
+f) Calendário Financeiro e Anos Bissextos (Divisíveis por 4)
+O setor de contabilidade precisa agendar auditorias completas que ocorrem apenas em anos bissextos (simplificadamente, divisíveis por 4) em um período histórico.
+
+ Tarefa: Considere um período de anos de 1 a 200 (representando um intervalo fictício). Liste todos os anos que seriam elegíveis para a auditoria. Use um `se` dentro do laço para validar a divisibilidade.
+
+g) Projeção de Marketing Viral (Potências de 3)
+Uma campanha de marketing promete que cada cliente convidará exatamente 3 novos clientes. Começando do "Nível 0" (1 cliente inicial), queremos saber quantos novos clientes entrarão em cada nível até o "Nível 15".
+
+ Tarefa: Apresente os resultados das potências de 3 (do expoente 0 ao 15) sem usar a função pronta de potência (`^`), simulando o cálculo de crescimento viral passo a passo.
+
+h) Calculadora de Juros Compostos Manual (Potência B^E)
+Um banco quer um simulador de investimentos onde o cliente define uma taxa base (Base B) e o tempo em anos (Expoente E). O sistema não pode depender de bibliotecas matemáticas complexas.
+
+ Tarefa: Leia a Base (B) e o Expoente (E) e calcule o montante final multiplicando a base por ela mesma `E` vezes, usando um laço de repetição. Mostre o resultado final do investimento.
+
+i) Planejamento de Sprints Ágeis (Fibonacci)
+Equipes de desenvolvimento ágil usam a sequência de Fibonacci para estimar a complexidade de tarefas (Planning Poker). O Scrum Master precisa da lista das primeiras pontuações possíveis para imprimir cartões.
+
+ Tarefa: Gere e apresente os primeiros 15 números da série de Fibonacci (1, 1, 2, 3, 5...). Lembre-se: a pontuação atual é a soma das duas anteriores.
+
+j) Monitoramento de Temperatura Industrial (Celsius -> Fahrenheit)
+Uma fábrica brasileira exporta máquinas para os EUA. O painel da máquina lê sensores em Celsius (de 10ºC a 100ºC), mas precisa exibir um relatório para os técnicos americanos em Fahrenheit.
+
+ Tarefa: Gere uma tabela de conversão de 10 em 10 graus (10, 20... 100). Mostre: "Temp: [C]ºC equivale a [F]ºF". Use a fórmula .
+
+k) Criptografia e Permutações (Fatorial de Ímpares)
+Um algoritmo de segurança gera chaves baseadas em permutações (fatorial). Para aumentar a entropia, o sistema só utiliza "Sementes" (números) ímpares entre 1 e 10.
+
+ Tarefa: Percorra os números de 1 a 10. Se o número for ímpar, calcule e mostre o seu fatorial. (Ex: Fatorial de 5 = 54321). Isso ajudará a entender a complexidade da chave gerada.

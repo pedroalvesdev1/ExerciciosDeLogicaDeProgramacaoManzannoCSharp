@@ -1,0 +1,71 @@
+a. (Baseado no cálculo de diferença)
+Cenário: Sistema Financeiro.
+Uma corretora de ações precisa mostrar ao investidor o desempenho diário de um ativo.
+Desafio: Leia o preço de abertura e o preço de fechamento de uma ação. Calcule a variação absoluta (diferença). Se o preço de fechamento for maior, exiba "Lucro de R$ X". Se for menor, exiba "Prejuízo de R$ X".
+
+b. (Baseado no módulo/valor positivo)
+Cenário: App de GPS/Navegação.
+Um aplicativo precisa calcular a distância linear entre o usuário e um ponto de interesse, mas o sistema de coordenadas pode retornar valores negativos dependendo da direção (norte/sul, leste/oeste).
+Desafio: Leia a coordenada X do usuário e a coordenada X do destino. Calcule a distância. Lembre-se: não existe distância negativa no mundo real (ex: -5km), então o sistema deve sempre mostrar o valor positivo, independente da direção.
+
+c. (Baseado em aprovação simples)
+Cenário: Análise de Crédito Bancário.
+Um banco só libera empréstimos se a parcela não comprometer mais do que 30% da renda do cliente.
+Desafio: Leia o salário bruto do cliente e o valor da parcela do empréstimo solicitado. Se o valor da parcela for menor ou igual a 30% do salário, exiba "Empréstimo APROVADO". Caso contrário, exiba "Empréstimo NEGADO - Renda insuficiente".
+
+d. (Baseado em aprovação com exame/recuperação)
+Cenário: Controle de Qualidade em Fábrica.
+Uma fábrica avalia lotes de produtos com base em uma pontuação de 0 a 100.
+Desafio: Leia a pontuação inicial do lote.
+ Se for maior ou igual a 80, o lote é "APROVADO para Venda".
+ Se for menor que 80, o lote vai para "Retrabalho" (conserto). Leia a nova pontuação após o conserto. Somente se a nova pontuação somada à antiga dividida por 2 for maior ou igual a 70, exiba "APROVADO com Ressalvas". Caso contrário, exiba "Lote DESCARTADO".
+
+e. (Baseado na equação de 2º grau)
+Cenário: Engenharia/Segurança.
+Um sistema de segurança de trânsito precisa calcular a frenagem de um carro. A fórmula física de movimento pode gerar tempos inválidos (negativos) ou imaginários dependendo dos dados.
+Desafio: Receba os coeficientes de desaceleração (A, B e C) de uma fórmula de impacto. Calcule o "Delta".
+ Se o Delta for negativo, exiba "Erro: Dados inconsistentes (sem impacto real)".
+ Se o Delta for zero ou positivo, calcule os tempos de impacto (raízes) e exiba apenas os tempos positivos (não existe tempo negativo na física clássica). Lembre-se de validar se 'A' não é zero para não dividir por zero.
+
+f. (Baseado em ordenação crescente)
+Cenário: E-commerce (Marketplace).
+Um cliente quer ver três produtos ordenados pelo preço, do mais barato para o mais caro.
+Desafio: Leia o preço de três produtos diferentes. Exiba os preços na tela organizados em ordem crescente para que o cliente veja a melhor oferta primeiro.
+
+g. (Baseado em divisibilidade por 2 e 3)
+Cenário: Logística e Empacotamento.
+Uma transportadora tem caixas especiais que comportam exatamente 6 unidades (porque 6 é divisível por 2 e por 3).
+Desafio: Leia a quantidade total de um produto. Verifique se essa quantidade pode ser distribuída perfeitamente nessas caixas especiais (ou seja, se o número é divisível por 2 E por 3 ao mesmo tempo). Se sim, exiba "Lote compatível com empacotamento padrão". Se não, exiba "Necessário redividir o lote".
+
+h. (Baseado em maior e menor)
+Cenário: Monitoramento de Servidores.
+Um sistema monitora a temperatura de 5 servidores em um Data Center.
+Desafio: Leia a temperatura de 5 servidores. Identifique e exiba qual é a temperatura mais alta (risco de superaquecimento) e a mais baixa (ocioso).
+
+i. (Baseado em par ou ímpar)
+Cenário: Controle de Acesso (Rodízio de Veículos).
+Um sistema de portaria inteligente libera a entrada de veículos em dias específicos baseados no final da placa.
+Desafio: Leia o número inteiro final da placa do carro. Se o número for PAR, exiba "Acesso permitido para Dias Pares". Se for ÍMPAR, exiba "Acesso permitido para Dias Ímpares".
+
+j. (Baseado em validação de faixa 1 a 9)
+Cenário: Sistema de Avaliação de Atendimento (NPS).
+Ao final de um atendimento, o cliente dá uma nota de 1 a 10. O sistema precisa categorizar essa nota.
+Desafio: Leia a nota dada pelo cliente.
+ Se a nota estiver entre 9 e 10 (inclusive), exiba "Cliente Promotor".
+ Se estiver entre 7 e 8, exiba "Cliente Neutro".
+ Se estiver entre 1 e 6, exiba "Cliente Detrator".
+ Se for menor que 1 ou maior que 10, exiba "Erro: Nota Inválida".
+
+k. (Baseado em exibir se valor <= 3)
+Cenário: Gestão de Estoque Inteligente.
+Um sistema precisa alertar o gerente apenas quando o estoque estiver em nível crítico.
+Desafio: Leia a quantidade atual de um produto no estoque. Se a quantidade for menor ou igual a 5 unidades (nível crítico), exiba um alerta vermelho na tela: "ATENÇÃO: REPOSIÇÃO IMEDIATA NECESSÁRIA". Caso contrário, não exiba nada (ou exiba "Estoque normal").
+
+l. (Baseado em condicional por sexo/nome)
+Cenário: Marketing Personalizado (CRM).
+Uma loja de roupas quer enviar e-mails personalizados baseados no perfil do cliente.
+Desafio: Leia o nome do cliente e o código do perfil de compra (1 para Moda Masculina, 2 para Moda Feminina).
+ Se for 1, exiba: "Olá Sr. [Nome], confira nossa coleção de ternos!".
+ Se for 2, exiba: "Olá Sra. [Nome], venha ver os novos vestidos de verão!".
+ Se for outro código, exiba: "Olá [Nome], confira nossas ofertas gerais!".
+

@@ -1,0 +1,64 @@
+a) Tabela de Preços Atacado (E-commerce)
+
+Você trabalha num e-commerce B2B (Business to Business). O cliente quer ver rapidamente quanto custa comprar de 1 até 10 unidades de um produto para saber o desconto progressivo.
+
+ Desafio: Ler o valor unitário de um produto e apresentar uma tabela mostrando o preço total para compras de 1, 2, 3... até 10 unidades.
+
+b) Gamificação: Pontuação Acumulada (Soma 1 a 100)
+Você está criando um sistema de RPG. Para subir do nível 1 para o 2, precisa de 1 XP. Do 2 para o 3, 2 XP, e assim por diante.
+
+ Desafio: Calcular quanto de XP total um jogador precisa acumular para completar os primeiros 100 "micro-níveis" (soma de 1+2+3...+100).
+
+c) Auditoria de Pedidos (Pares 1-500)
+Num sistema de logística, os pedidos com ID par são de clientes VIP e precisam de uma auditoria especial de faturamento.
+
+ Desafio: Somar o valor fictício (considere que o valor é igual ao número do ID) de todos os pedidos VIP (pares) na faixa de ID 1 até 500.
+
+d) Slots de Agenda Disponíveis (Ímpares 0-20)
+Um sistema de agendamento de barbearia tem slots numerados de 0 a 20. Por uma regra de distanciamento social, apenas os slots ímpares estão liberados para reserva hoje.
+
+ Desafio: Listar na tela todos os horários (slots) ímpares disponíveis entre 0 e 20. Use uma verificação (`se`) dentro do laço `enquanto` para validar.
+
+e) Projeção de Marketing Viral (Potências de 3)
+Você lançou um app onde cada usuário convida obrigatoriamente 3 novos amigos. Começando com 1 usuário (nível 0), quantos usuários novos entram em cada nível até o nível 15?
+
+ Desafio: Apresentar a quantidade de novos usuários a cada nível (3⁰, 3¹, 3²... 3¹⁵) sem usar o operador de potência `^` (use multiplicação acumulada).
+
+f) Calculadora de Juros Compostos Manual (Potência B^E)
+
+Uma Fintech precisa de um simulador de investimentos. O usuário entra com a taxa de retorno mensal (Base, ex: 1.05 para 5%) e a quantidade de meses (Expoente).
+
+ Desafio: Calcular quanto 1 real renderia ao final desse período, multiplicando a taxa mês a mês, sem usar a função de potência pronta.
+
+g) Estimativa de Story Points (Fibonacci)
+
+Em times ágeis de desenvolvimento de software, usamos a sequência de Fibonacci para estimar a complexidade das tarefas (Planning Poker).
+
+ Desafio: Gerar e exibir a sequência de cartas válidas para o baralho de Planning Poker (série de Fibonacci) até o décimo quinto termo.
+
+h) Dashboard Industrial (Celsius para Fahrenheit)
+Um painel de controle de uma caldeira industrial precisa mostrar a temperatura para engenheiros brasileiros (Celsius) e americanos (Fahrenheit) simultaneamente.
+
+ Desafio: Gerar uma tabela de conversão que vai de 10ºC até 100ºC, subindo de 10 em 10, mostrando os valores nas duas escalas.
+
+i) Análise de NPS (Média de 10 leituras)
+Sua empresa coletou as últimas 10 notas de satisfação (Net Promoter Score) dos clientes.
+
+ Desafio: Ler 10 notas inseridas pelo usuário, somá-las e, ao final, apresentar a média geral de satisfação.
+
+j) Métricas de Estoque Legado (Pares entre 50-70)
+O gerente de estoque quer analisar apenas os produtos antigos, que possuem códigos entre 50 e 70. Além disso, ele só quer saber dos produtos em prateleiras pares.
+
+ Desafio: Somar e tirar a média aritmética dos valores (índices) pares situados na faixa de 50 a 70.
+
+k) Orçamento de Reforma (Acumulador com Flag)
+Você está criando um app para empreiteiros. Eles medem vários cômodos (sala, cozinha, etc.) e querem a área total no final.
+
+ Desafio: Ler nome, largura e comprimento de um cômodo, calcular sua área, mostrar na tela e perguntar: "Calcular outro? (SIM/NAO)". Enquanto a resposta não for "NAO", continue somando à área total da casa.
+
+l) Monitor de Cotação de Cripto (Maior/Menor com parada)
+
+Um bot de trading fica lendo o preço do Bitcoin a cada segundo. Se a conexão cair (simulado digitando um valor negativo), ele para e gera um relatório.
+
+ Desafio: Ler valores positivos de cotação repetidamente. Quando um valor negativo for digitado, encerrar o programa e mostrar qual foi o Maior e o Menor preço registrado durante a sessão.
+

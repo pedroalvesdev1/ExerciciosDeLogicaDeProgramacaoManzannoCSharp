@@ -1,0 +1,140 @@
+﻿a) O Termômetro Mundial 🌡️
+ (Original: Celsius -> Fahrenheit) [cite: 2636]
+
+ Você está criando um app para turistas.  
+ O usuário digita a temperatura em Celsius. Seu programa deve mostrar:
+ 1. A temperatura em Fahrenheit (F = (9 * C + 160) / 5).
+ 2. A temperatura em Kelvin (K = C + 273.15).
+
+ Desafio: Mostre os três valores na mesma linha, tipo:
+ 25ºC = 77ºF = 298.15K
+
+
+ b) O Cozinheiro Internacional 🍳
+ (Original: Fahrenheit -> Celsius) [cite: 2638]
+
+ Você pegou uma receita americana que pede o forno a X graus Fahrenheit.  
+ Leia a temperatura em Fahrenheit e converta para Celsius.
+
+ Desafio: Além de converter, calcule e mostre a diferença dessa temperatura
+ para o ponto de ebulição da água (100ºC).
+ Exemplo: "Faltam X graus para a água ferver".
+
+
+ c) A Fábrica de Latas 🛢️
+ (Original: Volume da lata) [cite: 2640]
+
+ Leia o Raio e a Altura de uma lata de óleo.  
+ Calcule e mostre:
+ 1. O Volume (V = π * R² * A).
+ 2. A Área Total (AT = 2 * π * R * (R + A)).
+
+ Dica: Use π = 3.14159.
+
+
+ d) O Computador de Bordo V2.0 🚘
+ (Original: Litros gastos, fixo 12km/l) [cite: 2641-2644]
+
+ Leia:
+ - Tempo da viagem (horas)
+ - Velocidade Média (km/h)
+ - Consumo do carro (km/l)
+ - Preço do Combustível
+
+ Saída:
+ - Distância percorrida
+ - Litros gastos
+ - Custo total da viagem em R$
+
+
+ e) O Cobrador Implacável (Juros Compostos Light) 💸
+ (Original: Prestação em atraso simples) [cite: 2647]
+
+ Leia:
+ - Valor da prestação
+ - Taxa de juros diária (%)
+ - Tempo em dias de atraso
+
+ Fórmula:
+ Final = Valor + (Valor * (Taxa/100) * Tempo) + 15.
+
+
+ f) A Dança das Cadeiras (Troca Tripla) 🔄
+ (Original: Troca A e B) [cite: 2648]
+
+ Leia três valores: A, B e C.  
+ Realize a troca:
+ - A recebe B
+ - B recebe C
+ - C recebe o valor original de A
+
+ Dica: Use variável auxiliar.
+
+
+ g) O Malabarista de Números 🤹
+ (Original: Distributiva com 4 números) [cite: 2649]
+
+ Leia quatro inteiros: A, B, C, D.  
+ Calcule:
+ 1. Resultado 1 = (A + B) * (C + D)
+ 2. Resultado 2 = A + B * C + D
+
+ Mostre como os parênteses mudam tudo!
+
+
+ h) A Caixa d'Água 📦
+ (Original: Volume caixa retangular) [cite: 2651]
+
+ Leia Comprimento, Largura e Altura (m).  
+ Calcule:
+ 1. Volume em m³
+ 2. Capacidade em litros (1 m³ = 1000 litros)
+
+
+ i) A Prova Real (Matemática) 📐
+ (Original: Quadrado da diferença) [cite: 2652]
+
+ Leia dois números A e B.  
+ Prove a igualdade:
+ 1. (A - B)²
+ 2. A² - 2AB + B²
+
+
+ j) O Turista (Câmbio com IOF) ✈️
+ (Original: Real -> Dólar) [cite: 2653]
+
+ Leia:
+ - Cotação do dólar
+ - Quantidade de Reais
+
+ Converta para dólares e desconte 1.1% de IOF.
+ Mostre o valor líquido em dólares.
+
+
+ k) O Investidor (Dólar -> Real) 💰
+ (Original: Dólar -> Real) [cite: 2655]
+
+ Leia:
+ - Cotação do dólar
+ - Quantidade de dólares
+
+ Converta para reais e calcule quanto terá após
+ rendimento de 0.5% na poupança em 1 mês.
+
+
+ l) O Pitágoras 3D (Soma dos Quadrados) 🔺
+ (Original: Soma dos quadrados de 3 valores) [cite: 2657]
+
+ Leia A, B e C.  
+ Calcule:
+ 1. Soma = A² + B² + C²
+ 2. Diagonal = √Soma
+
+
+ m) O Grande Quadrado (Quadrado da Soma) ⬛
+ (Original: Quadrado da soma de 3 valores) [cite: 2658]
+
+ Leia A, B e C.  
+ Calcule:
+ 1. Resultado = (A + B + C)²
+ 2. Quanto falta para chegar a 1000 (1000 - Resultado)
