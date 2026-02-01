@@ -132,7 +132,6 @@ using ExerciciosDeLogicaDeProgramacaoManzannoCSharp.ExerciciosPag66;
     ExForH.Main(args);
     ExForI.Main(args);
     ExForJ.Main(args);
+    ExForK.Main(args);
 
 */
-
-ExForK.Main(args);
